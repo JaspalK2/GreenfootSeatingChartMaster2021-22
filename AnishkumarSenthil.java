@@ -62,9 +62,11 @@ public class AnishkumarSenthil extends Student implements SpecialInterestOrHobby
           //  if (sitting){
                 sitting=false;
                 setImage(standingFile);
+                corner();
+                 sayName(soundFile);
                 System.out.println(""); // Print a blank line to create space between any student output.
                 getName();
-                sayName(soundFile);
+
             
                 myHobby("I like to play football and I like Elephants");
                 myFriends("My best friend is Pranav Gooey Guda");
@@ -84,6 +86,46 @@ public class AnishkumarSenthil extends Student implements SpecialInterestOrHobby
      */
     public void getName(){
         System.out.println("My name is " + firstName + " " + lastName);
+    }
+public void corner(){
+
+        setLocation(1,1);
+                Greenfoot.delay(20);
+                  setLocation(2,1);
+                Greenfoot.delay(20);
+                  setLocation(2,2);
+                Greenfoot.delay(20);
+                  setLocation(1,2);
+                Greenfoot.delay(20);
+                setLocation(11,1);
+                Greenfoot.delay(20);
+                 setLocation(12,1);
+                Greenfoot.delay(20);
+                 setLocation(12,2);
+                 Greenfoot.delay(20);
+                 setLocation(11,2);
+                Greenfoot.delay(20);
+                setLocation(0,10);
+
+                 Greenfoot.delay(20);
+                 setLocation(1,10);
+
+                 Greenfoot.delay(20);
+                 setLocation(1,11);
+
+                 Greenfoot.delay(20);
+                 setLocation(0,11);
+
+                 Greenfoot.delay(20);
+                 setLocation(10,10);
+                  Greenfoot.delay(20);
+                  setLocation(11,10);
+                  Greenfoot.delay(20);
+                  setLocation(11,11);
+                  Greenfoot.delay(20);
+                  setLocation(10,11);
+                  Greenfoot.delay(20);
+
     }
     /**
      * This method needs to allow the user to interact with the student through a question and answer interface, and provide
